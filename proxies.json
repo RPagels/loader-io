@@ -1,0 +1,15 @@
+﻿{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "TestProxy": {
+      "matchCondition": {
+        "route": "/loaderio-d653e02e47d13a41765ffe7897af0ffb"
+      },
+      "responseOverrides": {
+        "response.statusCode": "200",
+        "response.statusReason": "Ok",
+        "response.body": "loaderio-d653e02e47d13a41765ffe7897af0ffb"
+      }
+    }
+  }
+}
